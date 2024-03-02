@@ -184,6 +184,43 @@ body{
     }
     
 }
+@media (max-width: 500px) {
+    .titlename{
+        font-size: 7dvh ;
+    }
+    .titleprg{
+        font-size:medium;
+    }
+    .navbarDiv1{
+        margin-left: 1%;
+        margin-top: 10dvh;
+    }
+    .body1{
+        justify-content: space-between;
+        margin-top: 1dvh;
+    }
+    .body2text1{
+        font-size: 3dvh;
+    }
+    .body2text2{
+        font-size: 7dvh;
+    }
+    .podcastdiv{
+        width: 96%;
+    }
+    .whotext{
+        font-size: 7dvh;
+    }
+    .abouttext{
+        font-size: 2dvh;
+    }
+    .footer div h1{
+        font-size: medium;
+    }
+    .footer div div h1{
+        margin: 1dvh;
+    }
+}
 @media (max-width: 1080px) {
     .footer div{
         margin-top: 3dvh;
