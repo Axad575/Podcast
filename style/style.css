@@ -214,6 +214,10 @@ body{
     .abouttext{
         font-size: 2dvh;
     }
+    .card audio{
+        width: 80%;
+        margin-left: 10%;
+    }
     .footer div h1{
         font-size: medium;
     }
