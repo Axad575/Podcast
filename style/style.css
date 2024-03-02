@@ -164,21 +164,25 @@ body{
     .navbar{
         display: none;
     }
+    .photo{
+        display: none;
+    }
     .body1{
-        display: none;
+        margin-top: 0px;
     }
-    .body2{
-        display: none;
+    .footer div h1{
+        font-size: large;
     }
-    #body3{
-        display: none;
+    h1{
+        font-size: x-large;
     }
-    .footer{
-        display: none;
+    .podcastdiv{
+        display: grid;
     }
-    .formobile{
-        display: block;
+    .card{
+        width: 90%;
     }
+    
 }
 @media (max-width: 1080px) {
     .footer div{
