@@ -186,7 +186,7 @@ body{
 }
 @media (max-width: 500px) {
     .titlename{
-        font-size: 7dvh ;
+        font-size: 6.5dvh ;
     }
     .titleprg{
         font-size:medium;
