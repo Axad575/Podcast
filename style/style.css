@@ -214,9 +214,6 @@ body{
     .abouttext{
         font-size: 2dvh;
     }
-    .card{ 
-        width: 95vh;
-    }
     .card h1{
         font-size: 3dvh;
     }
