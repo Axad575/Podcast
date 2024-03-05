@@ -186,7 +186,7 @@ body{
 }
 @media (max-width: 500px) {
     .titlename{
-        size: 6.5dvh ;
+        size: 7dvh ;
     }
     .titleprg{
         font-size:medium;
@@ -215,7 +215,7 @@ body{
         font-size: 2dvh;
     }
     .card{ 
-        width: 100%;
+        width: 95vh;
     }
     .card h1{
         font-size: 3dvh;
