@@ -200,10 +200,10 @@ body{
         margin-top: 1dvh;
     }
     .body2text1{
-        font-size: 3dvh;
+        font-size: 2dvh;
     }
     .body2text2{
-        font-size: 7dvh;
+        font-size: 6dvh;
     }
     .podcastdiv{
         width: 96%;
@@ -213,6 +213,9 @@ body{
     }
     .abouttext{
         font-size: 2dvh;
+    }
+    .card h1{
+        font-size: 3dvh;
     }
     .card audio{
         width: 80%;
