@@ -10,6 +10,7 @@ body{
 .navbar{
     display: flex;
     justify-content: right;
+    margin-top: 2vh;
 }
 .navbarDiv2{
     display: flex;
@@ -20,9 +21,10 @@ body{
     color: black;
     
 }
-.navbarDiv2 a h1{
-    font-size:x-large;
-    font-weight: 400;
+#AboutText{
+    font-size:xx-large;
+    font-weight: 600;
+    margin-right: 7dvh;
 }
 .navbarDiv1{
     margin-top: 23dvh;
@@ -160,88 +162,82 @@ body{
     text-align: center;
     margin-top: 3dvh;
 }
-@media (max-width: 933px) {
+.footer2{
+    background-color: gray;
+    color: black;
+    width: 100%;
+    height: 4vh auto;
+    justify-content: center;
+    align-items: center;
+}
+.footer2 h1{
+    font-size: medium;
+    text-align: center;
+    padding: 2vh;
+}
+@media (max-width: 600px) {
     .navbar{
         display: none;
     }
     .photo{
         display: none;
     }
-    .body1{
-        margin-top: 0px;
-    }
-    .footer div h1{
-        font-size: large;
-    }
-    h1{
-        font-size: x-large;
-    }
     .podcastdiv{
         display: grid;
     }
     .card{
         width: 90%;
+        margin: 2dvh;
     }
-    
-}
-@media (max-width: 500px) {
-    .titlename{
-        size: 5dvh ;
+    .footer{
+        padding: 2dvh;
     }
-    .titleprg{
-        font-size:medium;
+    .footer img{
+        width: 15dvh;
     }
-    .navbarDiv1{
-        margin-left: 1%;
-        margin-top: 10dvh;
-    }
-    .body1{
-        justify-content: space-between;
-        margin-top: 1dvh;
-    }
-    .body2text1{
-        font-size: 2dvh;
-    }
-    .body2text2{
-        font-size: 6dvh;
-    }
-    .podcastdiv{
-        width: 96%;
-    }
-    .whotext{
-        font-size: 7dvh;
-    }
-    .abouttext{
-        font-size: 2dvh;
-    }
-    .card h1{
-        font-size: 3dvh;
-    }
-    .card audio{
-        width: 80%;
-        margin-left: 10%;
-    }
-    .footer div h1{
-        font-size: medium;
+    .footer h1 {
+        font-size: large;
     }
     .footer div div h1{
-        margin: 1dvh;
-    }
-}
-@media (max-width: 1080px) {
-    .footer div{
-        margin-top: 3dvh;
+        font-weight: 400;
+        margin: 0;
+        margin-top: 2dvh;
     }
     .footer div div{
         margin-top: 2dvh;
     }
-    .photo{
-        width: 50% ;
-        height: auto;
-        margin: 3dvh;
+    .footer div{
+        margin-top: 5dvh;
     }
     .navbarDiv1{
-        margin-top: 15dvh;
         margin-left: 2dvh;
+    }
+    .titlename{
+        font-size: 10vh;
+    }
+    .titleprg{
+        font-size: 2dvh;
+    }
+    .body1{
+        margin-top: 0dvh;
+    }
+    .body2{
+        width: 95%;
+        height: 300px auto;
+        background-color: black;
+        margin-top: 17dvh;
+        border-radius: 15px;
+    }
+    .body2text2{
+        text-align: center;
+        color: white;
+        font-size: 6dvh;
+        padding-top: 3dvh;
+    }
+    .whotext{
+        font-size: 8dvh;
+    }
+    .abouttext{
+        font-size: x-large;
     }
 }
