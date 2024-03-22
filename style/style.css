@@ -189,14 +189,22 @@ body{
         width: 90%;
         margin: 2dvh;
     }
+    .card h1{
+        width: 80%;
+        text-align: center;
+        font-size: large;
+        font-weight: 500;
+        margin-left: 10%;
+        margin-top: 2dvh;
+    }
     .footer{
         padding: 2dvh;
     }
     .footer img{
-        width: 15dvh;
+        width: 10dvh;
     }
     .footer h1 {
-        font-size: large;
+        font-size: medium;
     }
     .footer div div h1{
         font-weight: 400;
@@ -204,10 +212,10 @@ body{
         margin-top: 2dvh;
     }
     .footer div div{
-        margin-top: 2dvh;
+        margin-top: 1dvh;
     }
     .footer div{
-        margin-top: 5dvh;
+        margin-top: 2.5dvh;
     }
     .navbarDiv1{
         margin-left: 2dvh;
@@ -228,10 +236,13 @@ body{
         margin-top: 17dvh;
         border-radius: 15px;
     }
+    .body2text1{
+        font-size: 3dvh;
+    }
     .body2text2{
         text-align: center;
         color: white;
-        font-size: 6dvh;
+        font-size: 5dvh;
         padding-top: 3dvh;
     }
     .whotext{
@@ -239,5 +250,16 @@ body{
     }
     .abouttext{
         font-size: x-large;
+    }
+    .card audio{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5dvh;
+        margin-bottom: 3dvh;
+    }
+    .loadtext{
+        text-align: center;
+        color: white;
+        padding: 5dvh;
     }
 }
